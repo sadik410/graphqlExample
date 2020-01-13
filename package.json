@@ -1,0 +1,30 @@
+{
+  "name": "testgraph",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX lanch missions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadik410/graphqlExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadik410/graphqlExample/issues"
+  },
+  "homepage": "https://github.com/sadik410/graphqlExample#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "expess": "0.0.1-security",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
