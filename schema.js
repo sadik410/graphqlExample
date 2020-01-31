@@ -57,7 +57,7 @@ const PayloadType = new GraphQLObjectType({
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
-    lanches: {
+    launches: {
       type: new GraphQLList(LanchType),
       resolve(parent, args) {
         return axios
