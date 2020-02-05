@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
 import LaunchItem from "./LaunchItem";
+import MessionKey from "./MessionKey";
 
 const LAUNCHES_Query = gql`
   query LaunchesQuery {
@@ -20,6 +21,7 @@ class Launches extends Component {
     return (
       <div className="App">
         <h1>Space X</h1>
+        <MessionKey />
         <Query query={LAUNCHES_Query}>
           {({ loading, error, data }) => {
             console.log({ loading, error, data });

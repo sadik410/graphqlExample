@@ -65,7 +65,7 @@ const RootQuery = new GraphQLObjectType({
           .then((res) => res.data);
       }
     },
-    lanch: {
+    launch: {
       type: LanchType,
       args: {
         flight_number: { type: GraphQLInt }
