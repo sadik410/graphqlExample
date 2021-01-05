@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/sadik410/graphqlExample#readme",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "concurrently": "^5.0.2",
     "cors": "^2.8.5",
